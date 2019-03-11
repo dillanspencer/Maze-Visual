@@ -93,7 +93,6 @@ public class MazeSolver {
         	result = "";
         }else {
         	result = stack.toString();
-        	System.out.println("We have found a path!");
         }
         
         return result.trim();

@@ -35,6 +35,8 @@ public class MazeTest extends State{
 	public void init(GameContainer gc) {
 		
 		System.out.println("State Enter: MazeTest");
+		System.out.println("Click screen and press Enter to start!");
+		
 		fileName = getFileName();
 		maze = new Maze(gc, "tests/maze" + fileName + ".txt");
 		
@@ -43,6 +45,8 @@ public class MazeTest extends State{
 		
 		tick = 0;
 		count = 0;
+		
+		//change speed here
 		speed = 10;
 		
 		renderPath = false;
