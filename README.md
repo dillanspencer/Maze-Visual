@@ -37,4 +37,6 @@ If stack is empty
  There is no path from start to finish
 Else
  Stack contains path from finish to end__
+ <hr>
+ <a href="https://imgflip.com/gif/2vz93d"><img src="https://i.imgflip.com/2vz93d.gif" title="made at imgflip.com"/></a>
 
